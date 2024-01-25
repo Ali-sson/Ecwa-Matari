@@ -487,7 +487,7 @@ height: auto;
 
 @media(max-width:480px){
      .body .theme h1, h2, h3{
-          font-size: 1px
+          font-size: 18px
      }
           .about h2, p{
                font-size: 18px;
