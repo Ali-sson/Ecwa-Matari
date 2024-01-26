@@ -493,6 +493,11 @@ height: auto;
           box-sizing: border-box;
 
      }
+
+     html, body {
+          overflow-x: hidden;
+       }
+       
      .body .theme h1, h2, h3{
           font-size: 15px
      }
