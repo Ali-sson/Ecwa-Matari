@@ -485,7 +485,7 @@ height: auto;
 
 /* Media queries ABOUT Page */
 
-@media(max-width:490px){
+@media(max-width:480px){
      .body .theme h1, h2, h3{
           font-size: 18px
      }
