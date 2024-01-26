@@ -486,11 +486,18 @@ height: auto;
 /* Media queries ABOUT Page */
 
 @media(max-width:480px){
+
+     *{
+          padding: 0;
+          margin: 0;
+          box-sizing: border-box;
+
+     }
      .body .theme h1, h2, h3{
-          font-size: 18px
+          font-size: 15px
      }
           .about h2, p{
-               font-size: 18px;
+               font-size: 15px;
           }
 
           .vision-container{
@@ -499,12 +506,21 @@ height: auto;
                gap: 15px;
           }
 
+          .vision-container .vision p{
+               font-size: 14px;
+          }
+
           .meet h1{
                font-size: 17px;
           }
           .pastors-container{
                display: flex;
                flex-direction: column;
+          }
+
+          .pastors-images{
+               
+
           }
           .text p, h6{
                display: flex;
