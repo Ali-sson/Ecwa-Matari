@@ -209,7 +209,7 @@ img{
 
 
 
-@media(max-width: 500px){
+@media(max-width:480px){
      .hamburger{
           display:block
      }
@@ -485,7 +485,7 @@ height: auto;
 
 /* Media queries ABOUT Page */
 
-@media(max-width:500px){
+@media(max-width:480px){
 
      *{
           padding: 0;
@@ -649,7 +649,7 @@ height: auto;
        /* Blog Media Queries *****************************
            ***************************************/
 
- @media(max-width:490px){
+ @media(max-width:480px){
      .text-blog h1{
           font-size: 20px;
      }
@@ -723,7 +723,7 @@ height: auto;
 
 /* Food for the day Media queries */
 
-@media(max-width : 490px){
+@media(max-width : 480px){
     .content, .full-text {
      margin: 0 10px 100px;
      font-size: 13px;
