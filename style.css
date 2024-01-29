@@ -209,7 +209,7 @@ img{
 
 
 
-@media(max-width: 490px){
+@media(max-width:480px){
      .hamburger{
           display:block
      }
@@ -520,14 +520,25 @@ height: auto;
           }
           .pastors-container{
                display: flex;
-               flex-direction: column;
+               flex-direction: column
           }
 
-          .pastors-images img{
-               margin-right: 50px;
+          .pastors-images {
+               text-align: left;
+               margin: 0; /* You can adjust this value based on your preference */
+             }
+
+             .blue-overlay {
+               text-align: center;
+             }
+
+             .blue-overlay h2,
+             .blue-overlay h5 {
+               margin: 0; /* Remove default margin to ensure accurate center alignment */
+             }
 
 
-          }
+     
           .text p, h6{
                display: flex;
                align-items: center;
@@ -638,7 +649,7 @@ height: auto;
        /* Blog Media Queries *****************************
            ***************************************/
 
- @media(max-width:490px){
+ @media(max-width:480px){
      .text-blog h1{
           font-size: 20px;
      }
@@ -712,7 +723,7 @@ height: auto;
 
 /* Food for the day Media queries */
 
-@media(max-width : 490px){
+@media(max-width : 480px){
     .content, .full-text {
      margin: 0 10px 100px;
      font-size: 13px;
